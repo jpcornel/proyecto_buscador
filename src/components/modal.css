@@ -1,0 +1,36 @@
+.salir {
+  float: right;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.modale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 234;
+}
+
+.cardModal {
+  background-image: url("https://image.freepik.com/foto-gratis/colores-lgbt-sobre-papel_23-2148120262.jpg");
+  width: 400px;
+  height: 400px;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.container-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.texto-modal {
+  color: white;
+}
